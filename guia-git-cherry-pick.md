@@ -22,10 +22,11 @@ O VSCode facilita o uso de `git cherry-pick` através de sua interface gráfica,
 
 2. Na guia de branches do Source Control, encontre o commit da outra branch que deseja aplicar na branch atual.
 
-![alt text](/images/guia-git-cherry-pick/branches.png)
+![Encontrando o commit de outra branch](/images/guia-git-cherry-pick/branches.png)
 
 3. Clique com o botão direito no commit e selecione "Cherry-Pick Commit".
 
+![Fazendo cherry pick](/images/guia-git-cherry-pick/cherry-pich-commit.gif)
 
 **Equivalente no CLI:**
 
@@ -59,7 +60,7 @@ Suponha que você tenha duas branches: `feature` e `bugfix`. Você quer aplicar 
 
    **No VSCode:**
 
-   - Vá para a aba "Source Control" e encontre o commit em "Timeline" ou "History".
+   - Vá para a aba "Source Control" e encontre o commit em "Commits" ou abrindo a seção "Branches".
    - Clique com o botão direito no commit e selecione "Cherry-Pick Commit".
 
    **Equivalente no CLI:**
