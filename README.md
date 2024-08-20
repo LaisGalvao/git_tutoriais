@@ -17,5 +17,5 @@ Este repositório foi criado para agrupar tutoriais que ajudam desenvolvedores a
 
 ## Tutoriais Incluídos
 
-- **Git Cherry-Pick**: Um guia detalhado sobre como usar o comando `git cherry-pick` no VSCode e no CLI.
-- **Git Stash**: Explicação aprofundada sobre o uso do `git stash`, tanto no VSCode quanto na linha de comando.
+- **[Git Cherry-Pick](guia-git-cherry-pick.md)**: Um guia detalhado sobre como usar o comando `git cherry-pick` no VSCode e no CLI.
+- **[Git Stash](guia-git-stash.md)**: Explicação aprofundada sobre o uso do `git stash`, tanto no VSCode quanto na linha de comando.
