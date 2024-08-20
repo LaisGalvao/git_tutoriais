@@ -17,8 +17,16 @@ O Visual Studio Code (VSCode) integra funcionalidades do Git diretamente na inte
 **No VSCode:**
 
 1. Abra a aba "Source Control" no lado esquerdo (ícone de ramo).
+
+![Abrindo a aba "source control"](./images/guia-git-cherry-pick/open-source-control.gif)
+
 2. Na parte superior, clique nos três pontinhos (...) para abrir o menu.
+
+![Abrindo a seção "more actions"](./images/guia-git-stash/more-actions.png)
+
 3. Selecione "Stash > Stash" para salvar suas alterações.
+
+![Aplicando stash](./images/guia-git-stash/stash-path.png)
 
 **Equivalente no CLI:**
 
@@ -33,8 +41,14 @@ Esse comando guarda todas as alterações e restaura seu diretório de trabalho 
 **No VSCode:**
 
 1. Acesse a aba "Source Control".
-2. Clique nos três pontinhos (...) e selecione "Stash > Stash List".
-3. Isso exibirá as stashes armazenadas no painel de controle de origem.
+
+2. Abaixo na lista da aba, temos outros controles, como o histórico de commits, branches e as stashes.
+
+![lista stash](./images/guia-git-stash/stash-list.png)
+
+3. Ao abrir a guia stahes, aparecerá uma lista com as stashes armazenadas.
+
+![mostra stash](./images/guia-git-stash/stash-show.png)
 
 **Equivalente no CLI:**
 
@@ -49,7 +63,10 @@ Este comando lista todas as stashes armazenadas, mostrando suas mensagens e iden
 **No VSCode:**
 
 1. Na "Stash List", clique com o botão direito na stash desejada.
+
 2. Selecione "Apply Stash" para aplicar as alterações na sua branch atual.
+
+![apply stash](./images/guia-git-stash/stash-apply.png)
 
 **Equivalente no CLI:**
 
@@ -66,6 +83,8 @@ Isso aplica a stash mais recente. Você pode especificar uma stash diferente com
 1. Na "Stash List", clique com o botão direito na stash desejada.
 2. Selecione "Pop Stash" para aplicar e remover a stash.
 
+![pop stash](./images/guia-git-stash/pop-stash.png)
+
 **Equivalente no CLI:**
 
 ```bash
@@ -80,6 +99,8 @@ Isso aplica as mudanças e remove a stash da pilha.
 
 1. Na "Stash List", clique com o botão direito na stash que deseja remover.
 2. Selecione "Drop Stash" para removê-la sem aplicá-la.
+
+![drop stash](./images/guia-git-stash/stash-drop.png)
 
 **Equivalente no CLI:**
 
